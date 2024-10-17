@@ -1,0 +1,403 @@
+
+.holiday-pack-img{
+    height: 80vh;
+    /* width: 45vw; */
+    position: absolute;
+    
+    left: 47%;
+}
+.holiday-main{
+    display: flex;
+    box-shadow: 2px 2px 2px 7px white;
+    height: 90vh;
+    width: 80vw;
+    background-color:  #f6d5ca;
+    margin: 40px;
+    margin-left: 10vw;
+    position: relative;
+    border-radius: 10px; 
+}
+.home-holi{
+    margin: 10px;
+}
+.fam-holi{
+    margin: 10px;
+}
+.login-holi{
+    margin: 10px;
+}
+.sign-holi{
+    margin: 10px;
+}
+.holi-main-h{
+    color: #ff7f50;
+    font-size: xxx-large;
+     position: absolute;
+     top: 10%;
+     left: 12%;
+}
+.nav-holi{
+    padding-left: 75vw;
+    justify-content: space-evenly;
+}
+.holi-main-btn{
+background-color: #ff7f50;
+color: black;    
+height: 10vh;
+width: 14vw;
+position: absolute;
+top: 73%;
+left: 15%;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+.holi-main-btn:hover{
+    transform: scale(1.2);
+}
+.holi-main-p{
+    font-size: large;
+    font-style: italic;
+    position: absolute;
+    top: 34%;
+    left: 6%;
+    right: 50%;
+}
+.holiday-matter{
+    display: flex;
+    flex-direction: column;
+}
+.disc-img{
+    height: 30vh;
+    width: 25vw;
+    -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 7s linear infinite;
+  -webkit-animation: my-animation 7s linear infinite;
+  animation: my-animation 7s linear infinite;
+}
+.scroll-text{
+    display: flex;
+   padding-left: 8vw;
+   overflow-x: auto;  
+    white-space: nowrap; 
+    overflow: hidden;
+}
+.disc-h{
+    padding: 8vh;
+    flex: 0 0 auto;  
+    margin-right: 20px;
+    -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 7ms linear infinite;
+  -webkit-animation: my-animation 7s linear infinite;
+  animation: my-animation 7s linear infinite;
+}
+@-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}  
+.holiday-card-img{
+    height: 40vh;
+    width: 25vw;
+}
+.holiday-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 10vw;
+}
+.holiday-card{
+    box-shadow: 0px 0px 0px  rgb(251, 250, 250);
+    margin: 10px;
+    height: fit-content;
+    border-radius: 10px;
+}
+.holi-card-btn{
+    background-color: #ff7f50;
+    color: rgb(4, 4, 4);
+    height: 5vh;
+    width: 7vw;
+    margin: 20px;
+    margin-left: 6vw;
+}
+.holi-mat{
+    display: flex;
+}
+.holiday-main-image{
+    position: absolute;
+    height: 80vh;
+    right: 70%;
+    bottom: 48%;
+}
+.holiday-main-page{ 
+  height: 80vh;
+}
+.india-page-image{
+    position: absolute;
+    height: 70vh;
+    top: 15%;
+    left: 7%;
+}
+.india-page{
+    height: 80vh;
+    position: relative;
+    display: flex;
+}
+.india-page-head{
+    position: absolute;
+    font-size: xxx-large;
+    left: 68%;
+    top: 28%;
+    color: #403f3e;
+    right: 5%;
+}
+.india-page-btn{
+    height: 8vh;
+    width: 14vw;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    left: 69%;
+    top: 65%;
+    background-color: #ff7f50;
+    cursor: pointer;
+}
+.india-page-btn:hover{
+    transform: scale(1.2);
+}
+.hol-nav{
+    display: flex;
+    padding-left: 50vw;
+    gap: 2rem;
+    cursor: pointer;
+}
+.india-wonders-btn{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff7f50;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+.india-card{
+    height: 25vh;
+    width: 22vw;
+    box-shadow: 1px 0px 1px 1px rgb(234, 231, 231);
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #f5f0ef;
+}
+.india-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-left: 3vw;
+}
+.india-card-image{
+    position: absolute;
+    height: 25vh;
+    width: 12vw;
+    border-radius: 20px 0px 0px 20px;
+}
+.india-card-matter{
+    position: absolute;
+    left: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.ind-head{
+    position: absolute;
+    top: 165%;
+    left: 10%;
+    font-size: xx-large;
+}
+.monument-page{
+    position: relative;
+    height: 100vh;
+}
+.monnument-page-head{
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+.monument-main-image{
+    height: 90vh;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    position : relative;
+    cursor: pointer;
+}
+.icon-loc{
+    position: absolute;
+    font-size: large;
+    top: 40%;
+    left: 25%;
+    cursor: pointer;
+}
+.icon-loc2{
+    position: absolute;
+    font-size: large;
+    top: 37%;
+    left: 27%;
+    cursor: pointer;
+}
+.fa-location-dot {
+    position: absolute;
+    top: 0;
+}
+.icon-loc:hover{
+    box-shadow: 2px 2px 2px 2px black;
+    height: 5vh;
+    width: 5vw;
+    background-color: #f6d5ca;
+}
+.icon-loc2:hover{
+    box-shadow: 2px 2px 2px 2px black;
+    height: 5vh;
+    width: 5vw;
+    background-color: #f6d5ca;
+}
+.icon-loc1:hover{
+    box-shadow: 2px 2px 2px 2px black;
+    height: 5vh;
+    width: 5vw;
+    background-color: #f6d5ca;
+}
+.icon-loc:hover .loc-hover-image{
+    box-shadow: 2px 2px 2px 2px black;
+    width: 5vw;
+    background-color: #f6d5ca;
+    /* background-image: url(https://res.cloudinary.com/dyxhiuuxa/image/upload/v1722236006/Rawa_dkiiin.jpg); */
+    width: 5vw;
+    display: block;
+}
+.icon-loc2:hover .loc-hover-image{
+    box-shadow: 2px 2px 2px 2px black;
+    width: 5vw;
+    background-color: #f6d5ca;
+    /* background-image: url(https://res.cloudinary.com/dyxhiuuxa/image/upload/v1722236006/Rawa_dkiiin.jpg); */
+    width: 5vw;
+    display: block;
+}
+.icon-loc1:hover .loc-hover-image{
+    box-shadow: 2px 2px 2px 2px black;
+    width: 5vw;
+    background-color: #f6d5ca;
+    /* background-image: url(https://res.cloudinary.com/dyxhiuuxa/image/upload/v1722236006/Rawa_dkiiin.jpg); */
+    width: 5vw;
+    display: block;
+}
+.loc-hover-image{
+    /* height: 5vh; */
+    width: 5vw;
+    display: none;
+}
+.onhoverimg{
+}
+.monu-icon-btn{
+    border-radius: 30px;
+}
+.flex{
+    display: flex;
+}
+.monu-card{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    text-align: center;
+}
+.selectimage{
+    height: 40vh;
+}
+.icon-loc1{
+    position: absolute;
+    font-size: large;
+    top: 61%;
+    left: 21%;
+    cursor: pointer;
+}
+.icon-loc3{
+    position: absolute;
+    font-size: large;
+    top: 67%;
+    left: 32%;
+    cursor: pointer;
+}
+.icon-loc3:hover .loc-hover-image{
+    box-shadow: 2px 2px 2px 2px black;
+    width: 5vw;
+    background-color: #f6d5ca;
+    /* background-image: url(https://res.cloudinary.com/dyxhiuuxa/image/upload/v1722236006/Rawa_dkiiin.jpg); */
+    width: 5vw;
+    display: block;
+}
+.monu-card-mat{
+    display: flex;
+    flex-direction: column;
+}
+.monu-card-btn{
+    height: 5vh;
+    width: 8vw;
+    background-color: #ff7f50;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 7vw;
+}
+.monu-card-btn1{
+    height: 5vh;
+    width: 8vw;
+    background-color: #ff7f50;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10vw;
+}
+.monu-card-btn2{
+    height: 5vh;
+    width: 8vw;
+    background-color: #ff7f50;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 3vw;
+}
+.monu-card-btn3{
+    height: 5vh;
+    width: 8vw;
+    background-color: #ff7f50;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 13vw;
+}

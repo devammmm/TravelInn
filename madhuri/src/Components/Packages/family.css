@@ -1,0 +1,269 @@
+.family-navbar{
+    display: flex;
+    gap: 48rem;
+    background-color: #ff7f50;
+}
+.fam-nav-links{
+    display: flex;
+    gap: 2rem;
+    padding-top: 3vh;
+}
+.logo-head{
+    padding-left: 4vw;
+}
+.family-page-image{
+    height: 90vh;
+    position: absolute;
+    top: 5%;
+}
+.family-page{
+    position: relative;
+    height: 100vh;
+}
+.family-page-head{
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    font-size: xxx-large;
+}
+.family-page-btn{
+    position: absolute;
+    height: 9vh;
+    width: 18vw;
+    left: 56%;
+    top: 62%;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.family-page-btn:hover{
+    transform: scale(1.1);
+}
+
+.family-page-para{
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    font-family: sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+}
+.fam-card-image{
+    height: 30vh;
+    width: 20vw;
+    border-radius: 10px 10px 0px 0px;
+}
+.fam-card{
+    height: fit-content;
+    width: 20vw;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin: 15px;
+    background-color: #f6edea;
+}
+.fam-act-cards{
+    display: flex;
+    padding-left: 70px;
+}
+li{
+    list-style-type: none;
+}
+.fam-act-head{
+    color: #0a0a0a;
+    padding-left: 50px;
+}
+.fam-act-card-btn{
+    height: 6vh;
+    width: 10vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff7f50;
+    margin: 10px;
+    margin-left: 5vw;
+    cursor: pointer;
+}
+.tip-card-image{
+    height: 45vh;
+    margin: 10px;
+    /* margin-top: 20px; */
+
+}
+.fam-card-place{
+    padding-left: 2vw;
+}
+.tip-card{
+    display: flex;
+}
+.trav-tips{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 4vw;
+    padding-bottom: 20px;
+    color: #555;
+}
+.Tips{
+    height: 80vh;
+    position: relative;
+}
+.tip-card{
+    box-shadow: 2px 2px 2px 2px rgb(239, 236, 236);
+    height: 48vh;
+    width: 80vw;
+    margin: 10px;
+    position: absolute;
+    border-radius: 10px;
+    left: 10vw;
+    top: 15vh;
+    background-color: #f1dbd4;
+}
+.tip-card-head{
+    padding-left: 20vw;
+    font-size: xx-large;
+    margin-bottom: 0;
+    color: #eb8662;
+    margin-top: 13px;
+}
+.tips-head{
+    margin: 7px;
+}
+.couple-main-image{
+    position: absolute;
+    height: 100vh;
+    
+    bottom: 3%;
+    right:60%;
+}
+.couple-main-page{
+    position: relative;
+    height: 90vh;
+}
+.love{
+    position: absolute;
+    height: 70vh;
+    left: 62%;
+    bottom: 40%;
+}
+.couple-main-head{
+    position: absolute;
+    top: 4%;
+    left: 35%;
+    right: 30%;
+    font-size: xxx-large;
+}
+.couple-card-main-page{
+    display: block;
+}
+.couple-main-btn{
+    background-color: #f77168;
+    height: 9vh;
+    width: 17vw;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    border-radius: 10px;
+    border: none;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.couple-main-btn:hover{
+    transform: scale(1.2);
+}
+
+.couple-packages-head{
+    padding-left: 5vw;
+    padding-top: 1vh;
+    position: absolute;
+    top: 100%;
+}
+.couple-card-image{
+    height: 40vh;
+    width: 25vw;
+    border-radius: 10px 10px 0px 0px;
+}
+.couple-card{
+    height: fit-content;
+    width: 25vw;
+    box-shadow: 2px 2px 0px 1px rgb(232, 229, 229);
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #ece4e1;
+}
+.couple-cards{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 10%;
+    top: 110%;
+}
+.couple-card-btn{
+    height: 5vh;
+    width: 9vw;
+    margin: 10px;
+    margin-top: 15px;
+    background-color: #f77168;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.coup-card-mat{
+    padding-left: 20px;
+    display: flex;
+}
+
+.andaman-card{
+    height: 40vh;
+    width: 20vw;
+    box-shadow: 2px 2px 2px 1px black;
+    margin: 10px;
+    border-radius: 10px;
+}
+.andpac{
+    height: 100vh;
+}
+.andaman-cards{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 13vh;
+    left: 7%;
+}
+.and-head{
+    position: absolute;
+    top: 5vh ;
+    left: 5%;
+}
+.andaman-image{
+    height: 25vh;
+    width: 20vw;
+    border-radius: 10px 10px 0px 0px;
+}
+/* .couple-main-image{
+    position: absolute;
+    height: 100vh;
+    right: 60%
+}
+.love{
+    height: 80vh;
+    position: absolute;
+    left: 55%;
+    top: 255vh;
+}
+.couple-main-head{
+    position: absolute;
+    top: 278vh;
+    left: 30vw;
+    font-size: xxx-large;
+    right: 30vw;
+}
+.couple-main-btn{
+    position: absolute;
+    top: 310vh;
+    left: 30vw;
+    background-color: #ff7f50;
+    border-radius: 10px;
+    border: none;
+    height: 8vh;
+    width: 14vw;
+    cursor: pointer;
+ } */

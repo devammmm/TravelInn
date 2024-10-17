@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.fcards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.fcards div{
+    border: 1px solid rgb(232, 230, 230);
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    aspect-ratio: 2/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+}

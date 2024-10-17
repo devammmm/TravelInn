@@ -1,0 +1,73 @@
+.login-page{
+   
+}
+.login-card{
+   position: absolute;
+   left: 40%;
+   top: 10vh;
+   box-shadow: 2px 2px 2px 2px #f1ecea;
+   background-color: #f7ebe6;
+   height: 85vh;
+   width: 25vw;
+   border-radius: 30px;
+   
+}
+.login-page{
+   position: relative;
+}
+.login-head{
+   text-align: center;
+}
+.wel{
+   height: 30vh;
+}
+.login-details{
+   
+   display: flex;
+   flex-direction: column;
+   padding-left: 3vw;
+}
+.username-login{
+   height: 5vh;
+   width: 18vw;
+   border-radius: 10px;
+   margin: 10px;
+   padding-left: 10px;
+}
+.login-pswd{
+   height: 5vh;
+   width: 18vw;
+   border-radius: 10px;
+   margin: 10px;
+   padding-left: 10px;
+
+}
+.login-btn{
+   height: 7vh;
+   width: 18vw;
+   border-radius: 10px;
+   margin: 10px;
+   background-color:#ff7f50 ;
+   border: none;
+   cursor: pointer;
+}
+.forgot-pswd{
+   padding-top: 20px;
+   color: #0d0d0d;
+   margin: 10px;
+}
+.new-acc{
+   color: rgb(14, 13, 11);
+   padding-top: 20px;
+   margin: 10px;
+}
+.login-card-links{
+   padding-top: 5vh;
+   display: flex;
+}
+.login-lock{
+   height: 25vh;
+   position: absolute;
+   left:25%;
+   top: 10%;
+}

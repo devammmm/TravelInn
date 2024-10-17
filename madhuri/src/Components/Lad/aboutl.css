@@ -1,0 +1,48 @@
+
+.aboutus-image{
+    height: 90vh;   
+    position: absolute;
+    left: 58%;
+}
+.lad-about{
+    height: 90vh;
+    position: relative;
+}
+.about-nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20rem;
+    background-color: #F3A712;
+    border-radius: 10px;
+    
+}
+.about-nav-links{
+    padding-top: 1vw;
+    display: flex;
+    gap: 2rem;
+    padding-left: 30vw;
+}
+
+.aboutl-h{
+    position: absolute;
+    top: 14%;
+    left: 10%;
+}
+.aboutl-para{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    right: 43%;
+    line-height: 1.5;
+}
+.aboutl-btn{
+position: absolute;
+top: 62%;
+left: 10%;
+height: 10vh;
+width: 15vw;
+border-style: none;
+background-color: #F3A712;
+border-radius: 10px;
+cursor: pointer;
+}

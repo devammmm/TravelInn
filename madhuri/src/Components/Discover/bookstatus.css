@@ -1,0 +1,44 @@
+
+
+.had{
+    text-align: center;
+}
+.bookcard{
+    box-shadow: 2px 2px 1px 2px;
+    color: rgb(38, 40, 40);
+    height: 80vh;
+    width: 80vw;
+    margin: 15px;
+    margin-left: 120px;
+    display: flex;
+}
+.bookimag{
+    padding-bottom: 20px;
+    height: 80vh;
+    width: 40vw;
+  }
+  .book-ma{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+  }
+  .book-form{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .book-form input{
+    height: 4vh;
+    width: 20vw;
+    margin: 10px;
+  }
+  .book-btn{
+    display: flex;
+    gap: 0.5rem;
+  }
+ .booknow{
+   height: 5vh;
+   width: 15vw;
+   margin: 50px auto;
+   
+ }

@@ -1,0 +1,65 @@
+.hotel-main-page{
+    /* position: relative; */
+}
+.hotel-main-image{
+    /* position: absolute; */
+    height: 95vh;
+    width: 85vw;
+    left: 14%;
+    margin-left: 13vw;
+}
+.hotel-main-head{
+
+    position: absolute;
+    top: 12vh;
+    left: 20%;
+    font-size: xxx-large;
+}
+.rat-image{
+    position: absolute;
+    height: 40vh;
+    left: 2%;
+    transform: rotate(-10deg);
+}
+.hotels-head{
+    padding-left: 5vw;
+}
+.hotel-card-image{
+    height: 35vh;
+    width: 28vw;
+}
+.hotel-cards{
+    display: flex;
+    margin-left: 6vw;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.resort-cards{
+    display: flex;
+    flex-wrap:wrap ;
+    margin-left: 6vw;
+}
+.hotel-card{
+    margin: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(235, 233, 233);
+    height: auto;
+    background-color: #f1e6e3;
+    scroll-snap-align: start;
+    transition: all 0.3s;
+}
+.hotel-card-btn{
+    height: 5vh;
+    width: 8vw;
+    border: none;
+    border-radius: 10px;
+    background-color:#ff7f50 ;
+    margin-top: 17px;
+    margin-left: 1.5vw;
+    cursor: pointer;
+}
+.hotel-matter{
+    display: flex;
+}
+.resort-head{
+    padding-left: 5vw;
+}

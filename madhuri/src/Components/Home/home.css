@@ -1,0 +1,13 @@
+.homepage{
+    background-color: aliceblue;
+    text-align: center;
+}
+.im{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+.im .item{
+    width: 900px;
+    height: 80vh;
+}

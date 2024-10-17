@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.appname:hover{
+    color:brown;
+    cursor: pointer;
+}
+
+/* .navbar ul:hover{
+    padding-right: 25px;
+    color: brown;
+    border-style: solid;
+    text-align: center;
+    cursor: pointer;
+} */
+ .fav{
+    margin: 10px;
+    margin-top: 10px;
+ }
+ .fav-btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+
+ }
+ .fav-btn:hover{
+    /* background-color: rgb(242, 239, 244); */
+    color: red;
+ }

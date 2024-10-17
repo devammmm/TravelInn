@@ -1,0 +1,143 @@
+.contact-nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20rem;
+    background-color: #F3A712;
+    border-radius: 10px;
+}
+.contact-nav-links{
+    padding-top: 1vw;
+    display: flex;
+    gap: 2rem;
+    padding-left: 30vw;
+}
+.contactl-matter{
+    height: 100vh;
+    position: relative;
+    background-color: #f5f2ee;
+}
+.down{
+     background-color: #f5f2ee;
+     top: 100%;
+    position: relative;
+    height: 90vh;
+}
+.conatctl-image{
+    position: absolute;
+    top: 10%;
+    height: 80vh;
+}
+.contactl-h{
+    position: absolute;
+    top: 1%;
+    left: 65%;
+}
+.contactl-card{
+    box-shadow: 2px 2px 2px 2px rgb(245, 244, 244);
+    position: absolute;
+    width: 30vw;
+    height: 45vh;
+    top: 20%;
+    left: 58%;
+    border-radius: 10px;
+    background-color: #f6ede1;
+    
+}
+.con-card-mat{
+    display: flex;
+    flex-direction: column;  
+}
+.onesym{
+    margin: 20px;
+    font-size: xx-large;
+}
+.oo{
+    display: flex;
+    gap: 2rem;
+}
+.sym-h{
+    font-size: larger;
+    padding-top: 10px;
+}
+.que{
+    position: absolute;
+    top: 2%;
+    left: 55%;
+    font-size: xxx-large;
+}
+.contact-form-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    box-shadow: 2px 2px 2px 2px rgb(247, 246, 246);
+    height: 65vh;
+    width: 27vw;
+    border-radius: 20px;
+    background-color: #f1ebe0;
+}
+.fname{
+    height: 5vh;
+    width: 20vw;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+}
+.lname{
+    height: 5vh;
+    width: 20vw;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+
+}
+.mob{
+    height: 5vh;
+    width: 20vw;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+
+}
+.msg{
+    height: 15vh;
+    width: 20vw;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+
+}
+.card-con-mat{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.send-btn{
+    height: 7vh;
+    width: 11vw;
+    border-radius: 20px;
+    background-color: #F3A712;
+    border-style: none;
+    padding-left: 10px;
+    margin: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.get-head{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: xxx-large;
+}
+.footer{
+    background-color: #F3A712;
+    height: 10vh;
+    margin-top: 90vh;
+    
+
+}

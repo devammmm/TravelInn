@@ -1,0 +1,35 @@
+.card{
+   
+    text-align: center;
+    border-style:solid;
+    box-shadow: 0 7px 10px 0 #b3adad ;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 20%;
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+    align-items: flex-end;
+    transition: 0.4s ease-out;
+}
+
+.card h2{
+    text-align: left;
+}
+
+.card img{
+    
+    height: 40vh;
+    width: 19.5vw;
+    border-radius: 20px;
+}
+.cards{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+  
+}
+.card:hover{
+    background-color:#d6f2efac;
+    
+}

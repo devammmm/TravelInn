@@ -1,0 +1,21 @@
+.logo{
+    height: 8vh;
+    text-align: center;
+    
+    background-color: rgb(220, 105, 33);
+}
+.form{
+    text-align: center;
+    background-color: rgb(200, 154, 29);
+}
+.stats{
+    height: 15vh;
+    text-align: center;
+    background-color: rgb(64, 184, 27);
+}
+.lists{
+    height: 80vh;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(248, 231, 137);
+}

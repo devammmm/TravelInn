@@ -1,0 +1,67 @@
+.signup-page-image{
+    position: absolute;
+    height: 75vh;
+}
+.signup-name{
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 7vh;
+    margin: 10px;
+    width: 16vw;
+}
+.signup-email{
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 7vh;
+    margin: 10px;
+    width: 16vw;
+}
+.signup-num{
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 7vh;
+    width: 16vw;
+    margin: 10px;
+}
+.signup-pwd{
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 7vh;
+    width: 16vw;
+    margin: 10px;
+}
+.signup-btn{
+    border-radius: 10px;
+    height: 7vh;
+    width: 16vw;
+    margin: 10px;
+    background-color:#ff7f50 ;
+    border: none;
+    cursor: pointer;
+}
+.signup-inputs{
+    position: absolute;
+    top: 12vh;
+    left: 58%;
+    display: flex;
+    flex-direction: column;
+}
+.signup-page{
+    display: flex;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px rgb(243, 242, 242);
+    height: 80vh;
+    width: 60vw;
+    margin: 10px;
+    border-radius: 20px;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: #e9d8d3;
+  
+}
+

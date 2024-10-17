@@ -1,0 +1,64 @@
+.trip-image{
+    height: 80vh;
+    /* width: 25vw; */
+   margin: 20px;
+   margin-left: 4vw;
+}
+.trip-details{
+    display: flex;
+}
+.book-name{
+    height: 4vh;
+    width: 16vw;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 10px;
+}
+.input-from{
+    height: 4vh;
+    width: 16vw;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 10px;
+
+}
+.book-mobile{
+    height: 4vh;
+    width: 16vw;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 10px;
+
+}
+
+.trip-det{
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+.input-from{
+  
+}
+.trip-adult-inc{
+    height: 4vh;
+    width: 2vw;
+    border-radius: 10px;
+    background-color: #f4e3dd;
+    border: none;
+    margin: 4px;
+}
+.trip-adult-dec{
+    height: 4vh;
+    width: 2vw;
+    border-radius: 10px;
+    background-color: #f4e3dd;
+    border: none;
+    margin: 4px;
+}
+.pay-now{
+    height: 7vh;
+    width: 12vw;
+    border: none;
+    background-color: #ff7f50;
+    border-radius: 10px;
+    cursor: pointer;
+}

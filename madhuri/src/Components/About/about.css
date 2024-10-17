@@ -1,0 +1,73 @@
+
+ .ima{
+    height: 65vh;
+    width: 50vw;
+    margin: 30px auto;
+}
+.all{
+    z-index: 0;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 2px 2px rgb(36, 33, 33);
+    border-radius: 20px;
+    height: 80vh;
+    background-color: white;
+    
+}
+.maincl {
+    color: black;
+    margin: 50px  auto;
+    background-color: white;
+}
+.viewmore{
+    background-color: rgb(245, 251, 251);
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+}
+.viewmore:hover{
+    background-color: blue;
+    color: white;
+}
+p{
+    font-size:larger;
+    font-family: sans-serif;
+    font-style: italic;
+    align-items: center;
+    margin: 60px;
+}
+hr{
+    background-color:aqua ;
+
+}
+
+.model-ctn{
+    z-index: 2;
+    width: 90vw;
+    height: 70vh;
+    position: absolute;
+    top: 100vh;
+    left: 5vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(236, 223, 223);
+    animation: shiny 1s ease-in-out;
+}
+.model-ctn button{
+    background-color:rgb(241, 245, 243) ;
+    
+}
+.all-blur{
+    filter: blur(10px);
+}
+@keyframes shiny {
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
